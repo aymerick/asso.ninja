@@ -1,7 +1,7 @@
 asso.ninja
 ==========
 
-Asso Ninja website
+Asso Ninja website - http://asso.ninja
 
 
 Development
