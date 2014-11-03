@@ -44,14 +44,13 @@ module.exports = (grunt) ->
         #   dest: "_site/js/"
         # }
         ]
-      html:
+      static:
         files: [{
           expand: true
           src: ["*.html"]
           dest: "_site/"
-        }]
-      misc:
-        files: [{
+        },
+        {
           expand: true
           src: "favicon.png"
           dest: "_site/"
@@ -60,6 +59,12 @@ module.exports = (grunt) ->
           expand: true
           src: "CNAME"
           dest: "_site/"
+        },
+        {
+          expand: true
+          cwd: "img/"
+          src: ["*.png", "*.jpg"]
+          dest: "_site/img"
         }]
 
     watch:
