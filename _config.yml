@@ -14,3 +14,9 @@ exclude:
   - "node_modules"
   - "package.json"
   - "Gruntfile.coffee"
+
+gems:
+  - jekyll-minifier
+
+jekyll-minifier:
+  exclude: ['*.html', '*.xml']
