@@ -2,10 +2,8 @@
 title: Asso Ninja
 email: aymerick@asso.ninja
 description: Un site web pour votre association
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-# github_username:  jekyll
+baseurl: ""
+url: "http://asso.ninja"
 
 # Build settings
 markdown: kramdown
