@@ -48,10 +48,11 @@ module.exports = (grunt) ->
           "_posts/**/*"
           "_sass/**/*"
           "css/**/*"
+          "img/**/*"
           "js/**/*"
           "_config.yml"
-          "*.html"
-          "*.md"
+          "**/*.html"
+          "**/*.md"
         ]
         tasks: [
           "exec:jekyll"

@@ -1,1 +1,21 @@
-@todo HEADER
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsable" aria-expanded="false">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img src="/img/logo_40x40.png" alt="Asso Ninja" /></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapsable">
+      <ul class="nav navbar-nav">
+        <li class="{% if page.body_id == 'beta' %}active{% endif %}"><a href="/beta/">Beta</a></li>
+        <li class="{% if page.body_id == 'contact' %}active{% endif %}"><a href="/contact/">Contact</a></li>
+      </ul>
+      <a href="https://admin.asso.ninja" class="btn btn-success navbar-btn navbar-right">Connexion</a>
+    </div>
+  </div>
+</nav>
