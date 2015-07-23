@@ -1,9 +1,27 @@
-/* navbar */
-
 body {
-    padding-top: 70px;
+    padding-top: $navbar-height;
+
+    background-color: #color-grey;
 }
 
+/* navbar */
 .navbar-brand {
     padding: 5px 0 0 0;
+    margin-right: 100px;
+}
+
+.navbar-nav > li.active a:after {
+    position: absolute;
+    bottom: 0;
+    left: 18px;
+    right: 18px;
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: $color-blue;
+}
+
+.navbar-nav > li {
+    min-width: 100px;
+    text-align: center;
 }

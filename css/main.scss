@@ -3,4 +3,12 @@
 ---
 @charset "utf-8";
 
+// variables
+@import "variables";
+
+// bootstrap variables
+@import "bootstrap_vars";
+@import "bootstrap/variables";
+
+// base styles
 @import "base";
