@@ -1,0 +1,16 @@
+{
+  "name": "asso.ninja",
+  "version": "0.0.0",
+  "homepage": "https://github.com/aymerick/asso.ninja",
+  "authors": [
+    "Aymerick <aymerick@jehanne.org>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
