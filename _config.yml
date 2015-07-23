@@ -13,6 +13,8 @@ exclude:
   - "bower.json"
   - "node_modules"
   - "package.json"
+  - "Gemfile"
+  - "Gemfile.lock"
   - "Gruntfile.coffee"
 
 gems:
