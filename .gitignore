@@ -1,5 +1,8 @@
-_site
 .sass-cache
+_sass/bootstrap
+_sass/_bootstrap.scss
+_site
+
 bower_components
 node_modules
 vendor

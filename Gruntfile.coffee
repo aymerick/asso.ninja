@@ -22,13 +22,19 @@ module.exports = (grunt) ->
       bootstrap:
         files: [{
           expand: true
-          cwd: "bower_components/bootstrap/dist/css/"
-          src: "bootstrap.min.css"
-          dest: "vendor/css/"
+          cwd: "bower_components/bootstrap-sass/assets/stylesheets/"
+          src: "_bootstrap.scss"
+          dest: "_sass/"
         },
         {
           expand: true
-          cwd: "bower_components/bootstrap/dist/js/"
+          cwd: "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/"
+          src: "**"
+          dest: "_sass/bootstrap"
+        },
+        {
+          expand: true
+          cwd: "bower_components/bootstrap-sass/javascripts/"
           src: "bootstrap.min.js"
           dest: "vendor/js/"
         }]
