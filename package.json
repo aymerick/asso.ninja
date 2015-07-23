@@ -1,0 +1,19 @@
+{
+  "name": "asso.ninja",
+  "version": "1.0.0",
+  "description": "Un site web pour votre association",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aymerick/asso.ninja.git"
+  },
+  "author": "Aymerick <aymerick@jehanne.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aymerick/asso.ninja/issues"
+  },
+  "homepage": "https://github.com/aymerick/asso.ninja#readme"
+}
