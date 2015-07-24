@@ -1,13 +1,17 @@
 body {
     padding-top: $navbar-height;
 
-    background-color: #fff;
+    background-color: $color-grey-bg;
 }
 
 /* navbar */
 .navbar-brand {
     padding: 5px 0 0 0;
     margin-right: 50px;
+
+    img {
+        display: inline;
+    }
 }
 
 .navbar-nav > li {
@@ -23,5 +27,26 @@ body {
         display: block;
         height: 4px;
         background-color: $color-blue;
+    }
+}
+
+/* footer */
+.footer {
+    background-color: $color-blue;
+    color: #fff;
+    padding: 40px 0px;
+
+    a {
+        color: #fff;
+    }
+
+    .brand-name {
+        font-size: 40px;
+    }
+
+    .links {
+        text-transform: uppercase;
+        margin-top: 10px;
+        margin-bottom: 15px;
     }
 }
