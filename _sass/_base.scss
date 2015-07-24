@@ -7,7 +7,11 @@ body {
     padding-top: $navbar-height;
     margin-bottom: $footer-height;
 
+    color: $color-grey;
     background-color: $color-grey-bg;
+
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* header */
@@ -70,8 +74,9 @@ body {
     width: 100%;
     height: $footer-height;
 
-    background-color: $color-blue;
     color: #fff;
+    background-color: $color-blue;
+
     padding: 40px 0px;
 
     text-align: center;
