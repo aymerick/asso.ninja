@@ -66,6 +66,11 @@ body {
     }
 }
 
+/* page header */
+.jumbotron {
+    background-color: $color-grey-bg-dark;
+}
+
 /* footer */
 .footer {
     position: absolute;
@@ -77,7 +82,7 @@ body {
     color: #fff;
     background-color: $color-blue;
 
-    padding: 40px 0px;
+    padding: 20px 0px;
 
     text-align: center;
 
