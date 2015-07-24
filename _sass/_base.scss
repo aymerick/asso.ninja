@@ -1,5 +1,11 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     padding-top: $navbar-height;
+    margin-bottom: $footer-height;
 
     background-color: $color-grey-bg;
 }
@@ -58,9 +64,17 @@ body {
 
 /* footer */
 .footer {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: $footer-height;
+
     background-color: $color-blue;
     color: #fff;
     padding: 40px 0px;
+
+    text-align: center;
 
     a {
         color: #fff;
