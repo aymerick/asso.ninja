@@ -1,0 +1,87 @@
+#home {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: $color-grey;
+
+    .hero {
+        position: relative;
+        height: 640px;
+        min-height: 570px;
+
+        padding-top: 60px;
+        padding-bottom: 80px;
+        margin-bottom: 50px;
+
+        background-color: $color-grey-bg;
+        border-bottom: #e5e5e5 1px solid;
+
+        h2 {
+            font-size: 40px;
+        }
+
+        .screens-wrapper {
+            width: 100%;
+            position: absolute;
+            bottom: -60px;
+            height: 395px;
+        }
+
+        .screens {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+
+            margin-left: -500px;
+
+            height: 400px;
+            width: 1000px;
+
+            .screen {
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                border-radius: 8px;
+
+                &.main {
+                    position: relative;
+                    margin: auto;
+                    width: 600px;
+                    z-index: 1;
+                }
+
+                &.left {
+                    position: absolute;
+                    bottom: 30px;
+                    left: 0px;
+                    z-index: 0;
+                }
+
+                &.right {
+                    position: absolute;
+                    bottom: 30px;
+                    right: 0px;
+                    z-index: 0;
+                }
+            }
+        }
+    }
+
+    .featurette {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        border-bottom: 1px solid $color-grey-border;
+
+        h2 {
+            font-size: 35px;
+        }
+
+        .delim {
+            width: 100px;
+            margin: 40px auto;
+        }
+
+        .info {
+            padding-top: 20px;
+        }
+    }
+}
