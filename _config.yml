@@ -16,6 +16,7 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
   - "Gruntfile.coffee"
+  - "README.md"
 
 gems:
   - jekyll-minifier
