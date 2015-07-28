@@ -3,7 +3,7 @@ title: Asso Ninja
 email: aymerick@asso.ninja
 description: Un site web pour votre association
 baseurl: ""
-url: "http://asso.ninja"
+url: "http://beta.asso.ninja"
 
 # Build settings
 markdown: kramdown
